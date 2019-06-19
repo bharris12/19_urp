@@ -55,7 +55,10 @@ Step 0 : Regardless of your computer, download this repository to your desktop a
 
 1. Open a terminal window (Applications/Utilities/Terminal.app), type `cd /Desktop/19_urp/` at the command line, then hit enter. This should put you in the repository folder
 1. Type `./mac_install.sh` at the command line and hit enter to run. Follow the prompts for installation: type `y` or `yes` when prompted with a y/n question, and hit enter when asked a non y/n question. This will install the Anaconda distribution of Python.
+1. Close the terminal then re-open it
+1. Type `cd /Desktop/19_urp/` and hit enter
 1. To run a notebook type `jupyter notebook` at the command line and hit enter. This will open up a web browser window. Then click on the name of the notebook that you would like to run.
+
 
 ### Windows Instructions
 
@@ -66,4 +69,5 @@ Step 0 : Regardless of your computer, download this repository to your desktop a
 1. In Windows Explorer navigate to the /19_urp folder then drag the file titled `requirements_windows.txt` into the Anaconda Prompt and hit enter.
 1. Answer `Y` or `Yes` to any y/n questions.
 1. Type `pip install logomaker` at the prompt and hit enter.
+1. Type `pip install jupyter` at the prompt and hit enter.
 1. Type `jupyter-notebook` at the prompt and hit enter.
